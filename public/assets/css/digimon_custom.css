@@ -1,0 +1,211 @@
+#body {
+    padding-bottom: 50px;
+    background: #e9ecef;
+}
+
+footer {    
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #222;
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.dropdown-menu {
+    margin: 0;
+}
+.dropdown-item {
+    position: relative;
+    color: #9B9B9B;
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 50px;
+    max-height: 60px;
+    border-radius: 0;
+    padding: 5px 40px 5px 40px;
+    text-decoration: none;
+}
+.dropdown-toggle::after{
+    content: none;
+}
+.dropdown-menu {
+    border-radius: 0;
+}
+.dropdown-menu.show {
+    width: 100%;
+}
+
+#footer-sm, .link-footer-sm{
+    display: none;
+}
+
+#footer-md {
+    display: flex;
+    width: 100%;
+}
+
+footer ul li {
+    padding: 10px;
+    border-left: 1px solid #333;
+}
+
+footer ul li:last-child {
+    border-right: 1px solid #333;
+}
+
+#s-bar i, #oclock {
+    color: #9b9b9b;
+    font-weight: 400;
+}
+.updatejam {
+    padding: 10px;
+    border-right: 1px solid #5a5a5a;
+}
+
+tbody tr {
+    background-color: transparent;
+}
+
+tbody tr.yellow {
+    background-color: #d2d6d6;
+    border-left: 15px solid #ffc107;
+}
+
+.table td, .table th {
+    padding: 0.5rem !important;
+    vertical-align: middle;
+}
+.table th.date {
+    padding-right: 2rem !important;
+}
+
+.active{
+    background: #ffc107;
+}
+
+.pagination_link{
+    cursor:pointer; 
+    padding:6px; 
+    border-radius: 50%;
+    width: 10px;
+    font-size: 0;
+    height: 10px;
+    border:1px solid #ccc;
+}
+
+.s-product a {
+    text-transform: none !important;
+    padding-left: 30px;
+}
+.s-product a:before{
+    left: 10px;
+}
+
+.s-product .badge {
+    background: #dc3545 !important;
+}
+
+.s-btn-login {
+    background: #2ad170 !important;
+}
+
+.s-btn-close {
+    background: #dc3545 !important;
+}
+.s-btn-close a:before {
+  color: #fff !important;
+}
+
+.alert {
+    position: absolute;
+    bottom: 60px;
+}
+
+.btn {
+    padding: 9px;
+    border-radius: 0;
+}
+
+#s-app {
+    display: none;
+}
+
+.section-booking {
+	overflow-x: hidden;
+}
+
+.booking-wrap {
+    width: 200%;
+    position: relative;
+    left: 0%;
+    transition: 800ms;
+}
+
+.booking-wrap.slideMode {
+    transform: translate(-50%);
+}
+
+.booking-unit, .jadwal-unit {
+    float: left;
+    width: 50%;
+}
+
+#jadwal {
+    position: relative;
+    display: none;
+}
+
+.sked-tape__time-canvas {
+    min-width: 4032px !important;
+}
+
+@media (max-width: 425px) {
+    .s-product {
+        display: none;
+        background: #fff;
+    }
+    .updatejam {
+        display: none;
+    }
+    #s-app {
+        display: block;
+    }
+    #s-bar {
+        background: #fff !important;
+        border-bottom: none;
+    }
+
+    .s-logo {
+        border-right: none;
+    }
+
+    #footer-md {
+        display: flex;
+        font-size: 12px;
+        width: 100%;
+        background: #222;
+        color: #fff;
+    }
+    
+    footer ul li {
+        padding: 0 5px;
+        border-left: 1px solid #333;
+    }
+    footer ul li:last-child {
+        border-right: 0;
+    }
+
+    #pause {
+        bottom: 7%;
+    }
+    #jadwal {
+        left: 0;
+        bottom: 7%;
+    }
+}

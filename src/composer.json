@@ -1,0 +1,23 @@
+{
+    "name": "racikproject/asamint",
+    "authors": [
+        {
+            "name": "Boed Winangun",
+            "email": "boedwinangun@gmail.com"
+        }
+    ],
+    "require": {
+        "lichtner/fluentpdo": "^1.1",
+        "wixel/gump": "^1.5",
+        "bramus/router": "^1.3",
+        "plasticbrain/php-flash-messages": "^1.0",
+        "league/plates": "^3.3",
+        "verot/class.upload.php": "dev-master",
+        "phpoffice/phpspreadsheet": "^1.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Racik\\": "libs/"
+        }
+    }
+}
